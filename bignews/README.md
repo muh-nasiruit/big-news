@@ -1,6 +1,9 @@
 # Getting Started
 
-replace the .env.local file
+Replace the .env.local file
+and nstall all the dependencies
+
+### `npm i`
 
 ## Available Scripts
 
