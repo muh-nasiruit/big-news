@@ -14,9 +14,12 @@ export default function Nav({ flag, setFlag }) {
           className={NavCSS.btn1}
           value="check"
           selected={sel}
-          onClick={() => setFlag(true)}
+          onClick={() => {
+            setFlag(true)
+            // if (!sel) setSel(sel)
+          }}
           onChange={() => {
-            setSel(!sel);
+            setSel(true);
           }}
         >
           News - <b>Top Picks</b>
@@ -26,9 +29,12 @@ export default function Nav({ flag, setFlag }) {
           className={NavCSS.btn1}
           value="check"
           selected={!sel}
-          onClick={() => setFlag(false)}
+          onClick={() => {
+            setFlag(false)
+            // if (sel) setSel(!sel)
+          }}
           onChange={() => {
-            setSel(!sel);
+            setSel(false);
           }}
         >
           Summary
