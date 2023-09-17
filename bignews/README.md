@@ -1,4 +1,4 @@
-# Getting Started
+# Frontend
 
 Replace the .env.local file
 and nstall all the dependencies
