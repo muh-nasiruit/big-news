@@ -1,7 +1,7 @@
 # Frontend
 
 Replace the .env.local file
-and nstall all the dependencies
+and install all the dependencies
 
 ### `npm i`
 
