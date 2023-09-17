@@ -1,7 +1,7 @@
 Install all the dependencies:
 
-### npm i
+### `npm i`
 
 Start the server:
 
-### npm start
+### `npm start`
